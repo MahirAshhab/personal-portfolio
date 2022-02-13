@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
             <div className="hero-para">
                 <p className="
-                text-justify text-sm font-light">
+                text-justify text-lg font-light">
                     A Sydney based frontend designer, working and living in Australia. I love to work on anything code, from designing simple HTML pages to solving complex problems. I love to illustrate as well. Recetly I won the award for best portfolio. Download the CV to know more about my background.
                 </p>
             </div>
@@ -34,35 +34,43 @@ const Hero = () => {
                 <button className="
                 cv 
                 p-4 pl-8 pr-8 
-                text-lg">
+                text-lg uppercase">
                     Download CV
                 </button>
             </div>
             <div className="
             icon-container
             pt-6 
-            flex">
+            grid grid-cols-3 gap-4">
                 <a
                     href="https://www.facebook.com/mahir.ashhab.71/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
                     pr-6">
-                    <ImFacebook2 className="text-2xl" />
+                    <ImFacebook2 className="
+                    text-2xl" />
                 </a>
                 <a
                     href="https://github.com/MahirAshhab/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="
+                    flex
+                    justify-center
                     pr-6">
-                    <ImGithub className="text-2xl" />
+                    <ImGithub className="
+                    text-2xl" />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/mahir-ashhab77/"
                     target="_blank"
-                    rel="noopener noreferrer">
-                    <ImLinkedin className="text-2xl" />
+                    rel="noopener noreferrer"
+                    className="
+                    flex
+                    justify-end">
+                    <ImLinkedin className="
+                    text-2xl" />
                 </a>
             </div>
         </div>

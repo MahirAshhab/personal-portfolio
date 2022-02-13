@@ -1,0 +1,7 @@
+.education-main-container{
+    color: #999999;
+}
+
+.education-container{
+    grid-template-columns: 35% auto;;
+}
