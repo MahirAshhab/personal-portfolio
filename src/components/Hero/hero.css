@@ -1,20 +1,9 @@
 .hero-container{
     background-color: rgb(255 247 237);
 }
-
-.hero-header{
-    color: #999999;
-}
-
-.hero-para{
-    color: #999999;
-}
-
 .cv{
     background-color: #ffe0e0;
-    color: #999999;
 }
-
-.icon-container{
-    color: #999999;
+.icon-container a{
+    letter-spacing: .5em;
 }

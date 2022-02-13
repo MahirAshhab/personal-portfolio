@@ -1,6 +1,6 @@
 import React from 'react';
-import { ImFacebook2, ImLinkedin, ImGithub } from 'react-icons/im';
 import './hero.css';
+import cv from '../../cv/Mahir_Ashhab_CV.pdf'
 
 const Hero = () => {
     return (
@@ -31,49 +31,67 @@ const Hero = () => {
             <div className="
             pt-6 
             flex">
-                <button className="
-                cv 
-                p-4 pl-8 pr-8 
-                text-lg uppercase">
-                    Download CV
-                </button>
+                <a href={cv}
+                    download="Mahir_Ashhab_CV">
+                    <button className="
+                    cv 
+                    p-4 pl-8 pr-8 
+                    text-lg uppercase"
+                        type="submit">
+                        Download CV
+                    </button>
+                </a>
             </div>
             <div className="
             icon-container
             pt-6 
             grid grid-cols-3 gap-4">
-                <a
-                    href="https://www.facebook.com/mahir.ashhab.71/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="
-                    pr-6">
-                    <ImFacebook2 className="
-                    text-2xl" />
-                </a>
-                <a
-                    href="https://github.com/MahirAshhab/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="
+                <div className="
+                    font-bold 
+                    uppercase
+                    flex">
+                    <a
+                        href="https://www.facebook.com/mahir.ashhab.71/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="
+                        pl-4 pt-1 pb-1 pr-2
+                        border-2 border-zinc-400">
+                        fb.
+                    </a>
+                </div>
+                <div className="
+                    font-bold 
+                    uppercase
                     flex
-                    justify-center
-                    pr-6">
-                    <ImGithub className="
-                    text-2xl" />
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/mahir-ashhab77/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="
+                    justify-center">
+                    <a
+                        href="https://www.linkedin.com/in/mahir-ashhab77/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="
+                        pl-4 pt-1 pb-1 pr-2
+                        border-2 border-zinc-400">
+                        gh.
+                    </a>
+                </div>
+                <div className="
+                    font-bold 
+                    uppercase
                     flex
                     justify-end">
-                    <ImLinkedin className="
-                    text-2xl" />
-                </a>
+                    <a
+                        href="https://www.linkedin.com/in/mahir-ashhab77/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="
+                        pl-4 pt-1 pb-1 pr-2
+                        border-2 border-zinc-400">
+                        li.
+                    </a>
+                </div>
             </div>
-        </div>
+        </div >
     );
 };
 
