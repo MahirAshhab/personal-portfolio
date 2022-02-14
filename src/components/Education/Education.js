@@ -5,18 +5,19 @@ const Education = () => {
     return (
         <div className="
         education-main-container
-        pr-28 pl-28
-        mt-20
+        pr-8 pl-8
+        md:pr-28 md:pl-28
+        mt-16
         text-left">
             <h1 className="
-            text-6xl font-bold
+            lg:text-6xl text-5xl font-bold
             mb-16">
                 Education
             </h1>
             <div className="
             education-container
-            grid gap-4 gap-y-16
-            mb-20">
+            grid gap-4 lg:gap-y-16
+            mb-16">
 
                 {/* BRAC UNIVERSITY */}
 
@@ -32,7 +33,8 @@ const Education = () => {
                     </p>
                 </div>
                 <div className="
-                flex flex-col">
+                flex flex-col
+                lg:mb-0 mb-10">
                     <h1 className="
                     text-2xl font-semibold uppercase">
                         Bachelor of Science in Computer Science and Engineering
@@ -60,7 +62,8 @@ const Education = () => {
                     </p>
                 </div>
                 <div className="
-                flex flex-col">
+                flex flex-col
+                lg:mb-0 mb-10">
                     <h1 className="
                     text-2xl font-semibold uppercase">
                         Higher Secondary Certificate

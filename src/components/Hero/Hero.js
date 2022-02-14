@@ -6,26 +6,30 @@ const Hero = () => {
     return (
         <div className="
         hero-container
-        grid grid-cols-2 gap-x-10
+        grid md:grid-cols-2 grid-col-1 gap-x-10
         items-center
-        pr-28 pl-28 pt-10 pb-10">
+        pr-8 pl-8 pt-6 pb-6
+        md:pr-28 md:pl-28 md:pt-6 md:pb-6">
             <div className="
             hero-header 
-            flex flex-col 
-            justify-center">
+            flex md:flex-col 
+            mb-10 mt-5">
                 <h1 className="
-                text-8xl font-bold text-left">
+                xl:text-8xl lg:text-7xl text-6xl font-bold text-left">
                     Hello,
                     <br />
                     I,m Mahir
-                    <br />
                     Ashhab
                 </h1>
             </div>
             <div className="hero-para">
                 <p className="
-                text-justify text-lg font-light">
-                    A Sydney based frontend designer, working and living in Australia. I love to work on anything code, from designing simple HTML pages to solving complex problems. I love to illustrate as well. Recetly I won the award for best portfolio. Download the CV to know more about my background.
+                text-justify md:text-lg text-base font-light">
+                    I am a fresh graduate and I look forward to start my career
+                    with dedication and sincerity towards my objective. I am
+                    always energetic and eager to learn new things. I am always
+                    motivated and honest towards my work. With a proper scope
+                    I believe to uphold myself and make use of every opportunity.
                 </p>
             </div>
             <div className="
@@ -36,7 +40,7 @@ const Hero = () => {
                     <button className="
                     cv 
                     p-4 pl-8 pr-8 
-                    text-lg uppercase"
+                    md:text-lg text-base uppercase"
                         type="submit">
                         Download CV
                     </button>
@@ -47,6 +51,7 @@ const Hero = () => {
             pt-6 
             grid grid-cols-3 gap-4">
                 <div className="
+                    text-base
                     font-bold 
                     uppercase
                     flex">
