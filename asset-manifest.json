@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.31366adf.css",
-    "main.js": "/personal-portfolio/static/js/main.a17b5d8c.js",
+    "main.css": "/personal-portfolio/static/css/main.8a911fc4.css",
+    "main.js": "/personal-portfolio/static/js/main.1a91ca77.js",
     "static/js/787.128fc6e9.chunk.js": "/personal-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Mahir_Ashhab_CV.pdf": "/personal-portfolio/static/media/Mahir_Ashhab_CV.284b46b20e7da2a456cf.pdf",
     "index.html": "/personal-portfolio/index.html",
-    "main.31366adf.css.map": "/personal-portfolio/static/css/main.31366adf.css.map",
-    "main.a17b5d8c.js.map": "/personal-portfolio/static/js/main.a17b5d8c.js.map",
+    "main.8a911fc4.css.map": "/personal-portfolio/static/css/main.8a911fc4.css.map",
+    "main.1a91ca77.js.map": "/personal-portfolio/static/js/main.1a91ca77.js.map",
     "787.128fc6e9.chunk.js.map": "/personal-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31366adf.css",
-    "static/js/main.a17b5d8c.js"
+    "static/css/main.8a911fc4.css",
+    "static/js/main.1a91ca77.js"
   ]
 }
