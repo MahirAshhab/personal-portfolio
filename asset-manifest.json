@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.a26daf7d.css",
-    "main.js": "/personal-portfolio/static/js/main.325b7e8f.js",
+    "main.css": "/personal-portfolio/static/css/main.2f8f3244.css",
+    "main.js": "/personal-portfolio/static/js/main.f9c1d197.js",
     "static/js/787.128fc6e9.chunk.js": "/personal-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Mahir_Ashhab_CV.pdf": "/personal-portfolio/static/media/Mahir_Ashhab_CV.284b46b20e7da2a456cf.pdf",
     "static/media/project03.jpg": "/personal-portfolio/static/media/project03.9468420f0ff7949fc0de.jpg",
     "static/media/project02.jpg": "/personal-portfolio/static/media/project02.b214a3f36ac37e5e6940.jpg",
     "static/media/project01.jpg": "/personal-portfolio/static/media/project01.00ac6dcac261f23335c8.jpg",
     "index.html": "/personal-portfolio/index.html",
-    "main.a26daf7d.css.map": "/personal-portfolio/static/css/main.a26daf7d.css.map",
-    "main.325b7e8f.js.map": "/personal-portfolio/static/js/main.325b7e8f.js.map",
+    "main.2f8f3244.css.map": "/personal-portfolio/static/css/main.2f8f3244.css.map",
+    "main.f9c1d197.js.map": "/personal-portfolio/static/js/main.f9c1d197.js.map",
     "787.128fc6e9.chunk.js.map": "/personal-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a26daf7d.css",
-    "static/js/main.325b7e8f.js"
+    "static/css/main.2f8f3244.css",
+    "static/js/main.f9c1d197.js"
   ]
 }
