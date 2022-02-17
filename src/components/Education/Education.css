@@ -1,9 +1,0 @@
-.education-container{
-    grid-template-columns: auto;
-}
-
-@media (min-width: 1024px) {
-    .education-container{
-        grid-template-columns: 35% auto;
-    }
-}
