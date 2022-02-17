@@ -9,7 +9,7 @@ const Hero = () => {
         grid md:grid-cols-2 grid-col-1 gap-x-10
         items-center
         pr-8 pl-8 pt-6 pb-6
-        md:pr-28 md:pl-28 md:pt-6 md:pb-6">
+        lg:pr-28 lg:pl-28 lg:pt-6 lg:pb-6">
             <div className="
             hero-header 
             flex md:flex-col 

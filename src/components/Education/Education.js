@@ -6,11 +6,11 @@ const Education = () => {
         <div className="
         education-main-container
         pr-8 pl-8
-        md:pr-28 md:pl-28
+        lg:pr-28 lg:pl-28
         mt-16
         text-left">
             <h1 className="
-            lg:text-6xl text-5xl font-bold
+            xl:text-6xl text-5xl font-bold
             mb-16">
                 Education
             </h1>
