@@ -2,8 +2,15 @@
     background-color: rgb(255 247 237);
 }
 .cv{
-    background-color: #ffe0e0;
+    background-color: #ffd1d1;
+    transition: .5s;
 }
 .icon-container a{
     letter-spacing: .5em;
+    transition: 0.5s;
+}
+
+.icon-container a:hover, .cv:hover{
+    background-color: #ff9191;
+    color: white;
 }
