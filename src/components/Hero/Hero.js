@@ -8,17 +8,11 @@ const Hero = () => {
             background-color: rgb(255 247 237);
         }
         .cv{
-            background-color: #fecaca;
             transition: .5s;
         }
         .icon-container a{
             letter-spacing: 5px;
             transition: 0.5s;
-        }
-        
-        .icon-container a:hover, .cv:hover{
-            background-color: #f87171;
-            color: white;
         }
     `;
 
@@ -38,7 +32,7 @@ const Hero = () => {
                     xl:text-8xl lg:text-7xl text-6xl font-bold text-left">
                         Hello,
                         <br />
-                        I,m Mahir
+                        I'm Mahir
                         Ashhab
                     </h1>
                 </div>
@@ -60,7 +54,10 @@ const Hero = () => {
                         <button className="
                         cv 
                         p-4 pl-8 pr-8 
-                        md:text-lg text-base uppercase"
+                        md:text-lg text-base uppercase
+                        bg-red-300
+                        hover:bg-red-400
+                        hover:text-white"
                             type="submit">
                             Download CV
                         </button>

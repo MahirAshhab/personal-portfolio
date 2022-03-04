@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaGlobe, FaGithub, FaInfoCircle } from 'react-icons/fa';
-import project01 from '../../images/project01.jpg';
-import project02 from '../../images/project02.jpg';
-import project03 from '../../images/project03.jpg';
+import project01 from '../../images/project01.png';
+import project02 from '../../images/project02.png';
+import project03 from '../../images/project03.png';
+import project04 from '../../images/project04.png';
 
 const Projects = () => {
     const StyledDiv = styled.div`
         .project-items{
-            color: white;
+            box-shadow: 5px 5px 15px 5px rgb(158, 158, 158, 0.6);
         }
         
         .icon{
@@ -25,136 +25,245 @@ const Projects = () => {
             pb-16
             text-left">
                 <h1 className="
-                xl:text-6xl text-5xl font-bold
+                xl:text-6xl md:text-5xl text-4xl font-bold uppercase
                 mb-16">
                     Projects
                 </h1>
                 <div className="
                 grid grid-cols-1 
                 lg:grid-cols-2 
-                gap-x-6 gap-y-16">
+                gap-x-10 gap-y-16">
                     <div className="
                     project-items
-                    bg-red-200
                     overflow-hidden">
-                        <div className="
-                        grid grid-cols-3">
-                            <div className="
-                            group
-                            pt-4
-                            grid
-                            justify-items-center
-                            relative">
-                                <FaGithub className="
-                                icon
-                                hover:text-red-400
-                                text-4xl">
-                                </FaGithub>
+                        <img src={project01}
+                            className="w-fit border-b-2 border-zinc-500"
+                            alt="Project 01" />
+
+                        <div className="project-details">
+                            <div className="project-title">
+                                <h1 className="
+                                text-xl md:text-2xl font-bold uppercase
+                                pt-4 pl-4 pr-4">
+                                    Quiz App
+                                </h1>
                             </div>
-                            <div className="
-                            pt-4
-                            flex
-                            justify-center">
-                                <FaGlobe className="
-                                icon
-                                hover:text-red-400
-                                text-4xl">
-                                </FaGlobe>
+
+                            <div className="project-description">
+                                <p className="
+                                text-base md:text-xl font-medium uppercase
+                                pt-6 pl-4 pr-4 pb-4">
+                                    A quiz app built using HTML5, CSS3 and JavaScript
+                                </p>
                             </div>
-                            <div className="
-                            pt-4
-                            flex
-                            justify-center">
-                                <FaInfoCircle className="
-                                icon
-                                hover:text-red-400
-                                text-4xl">
-                                </FaInfoCircle>
+
+                            <div className="project Link pb-1">
+                                <div className="flex p-4">
+                                    <div className="">
+                                        <a className="
+                                            text-base md:text-xl font-normal
+                                            pl-3 pr-3 pt-1 pb-1
+                                            bg-red-300
+                                            hover:bg-red-400 
+                                            text-white
+                                            cursor-pointer"
+                                            href="https://github.com/MahirAshhab/Quiz-App-JS"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            GitHub
+                                        </a>
+                                    </div>
+                                    <div className="pl-4">
+                                        <a className="
+                                            text-base md:text-xl font-normal
+                                            pl-3 pr-3 pt-1 pb-1
+                                            bg-red-300
+                                            hover:bg-red-400 
+                                            text-white
+                                            cursor-pointer"
+                                            href="https://quiz-app-77.netlify.app/"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            Live Site
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src={project01} className="p-6" alt="" />
                     </div>
                     <div className="
                     project-items
-                    bg-red-200
                     overflow-hidden">
-                        <div className="
-                        grid grid-cols-3">
-                            <div className="
-                            group
-                            pt-4
-                            grid
-                            justify-items-center
-                            relative">
-                                <FaGithub className="
-                                icon
-                                hover:text-red-400
-                                text-4xl">
-                                </FaGithub>
+                        <img src={project02}
+                            className="w-fit border-b-2 border-zinc-500"
+                            alt="Project 02" />
+
+                        <div className="project-details">
+                            <div className="project-title">
+                                <h1 className="
+                                text-xl md:text-2xl font-bold uppercase
+                                pt-4 pl-4 pr-4">
+                                    Signup/Login Form
+                                </h1>
                             </div>
-                            <div className="
-                            pt-4
-                            flex
-                            justify-center">
-                                <FaGlobe className="
-                                icon
-                                hover:text-red-400
-                                text-4xl">
-                                </FaGlobe>
+
+                            <div className="project-description">
+                                <p className="
+                                text-base md:text-xl font-medium uppercase
+                                pt-6 pl-4 pr-4 pb-4">
+                                    A signup/login form with dark/light mode toggle built using React.js, Styled Components and React Router Dom.
+                                </p>
                             </div>
-                            <div className="
-                            pt-4
-                            flex
-                            justify-center">
-                                <FaInfoCircle className="
-                                icon
-                                hover:text-red-400
-                                text-4xl">
-                                </FaInfoCircle>
+
+                            <div className="project Link pb-1">
+                                <div className="flex p-4">
+                                    <div className="">
+                                        <a className="
+                                            text-base md:text-xl font-normal
+                                            pl-3 pr-3 pt-1 pb-1
+                                            bg-red-300
+                                            hover:bg-red-400 
+                                            text-white
+                                            cursor-pointer"
+                                            href="https://github.com/MahirAshhab/Signup-Login-Form"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            GitHub
+                                        </a>
+                                    </div>
+                                    <div className="pl-4">
+                                        <a className="
+                                            text-base md:text-xl font-normal
+                                            pl-3 pr-3 pt-1 pb-1
+                                            bg-red-300
+                                            hover:bg-red-400 
+                                            text-white
+                                            cursor-pointer"
+                                            href="https://mahirashhab.github.io/Signup-Login-Form/#/"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            Live Site
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src={project02} className="p-6" alt="" />
                     </div>
                     <div className="
                     project-items
-                    bg-red-200
                     overflow-hidden">
-                        <div className="
-                        grid grid-cols-3">
-                            <div className="
-                            group
-                            pt-4
-                            grid
-                            justify-items-center
-                            relative">
-                                <FaGithub className="
-                                icon
-                                hover:text-red-400
-                                text-4xl">
-                                </FaGithub>
+                        <img src={project03}
+                            className="w-fit border-b-2 border-zinc-500"
+                            alt="Project 03" />
+
+                        <div className="project-details">
+                            <div className="project-title">
+                                <h1 className="
+                                text-xl md:text-2xl font-bold uppercase
+                                pt-4 pl-4 pr-4">
+                                    Weather App
+                                </h1>
                             </div>
-                            <div className="
-                            pt-4
-                            flex
-                            justify-center">
-                                <FaGlobe className="
-                                icon
-                                hover:text-red-400
-                                text-4xl">
-                                </FaGlobe>
+
+                            <div className="project-description">
+                                <p className="
+                                text-base md:text-xl font-medium uppercase
+                                pt-6 pl-4 pr-4 pb-4">
+                                    A weather app built using React.js, Tailwind CSS and OpenWeatherMap API.
+                                </p>
                             </div>
-                            <div className="
-                            pt-4
-                            flex
-                            justify-center">
-                                <FaInfoCircle className="
-                                icon
-                                hover:text-red-400
-                                text-4xl">
-                                </FaInfoCircle>
+
+                            <div className="project Link pb-1">
+                                <div className="flex p-4">
+                                    <div className="">
+                                        <a className="
+                                            text-base md:text-xl font-normal
+                                            pl-3 pr-3 pt-1 pb-1
+                                            bg-red-300
+                                            hover:bg-red-400 
+                                            text-white
+                                            cursor-pointer"
+                                            href="https://github.com/MahirAshhab/Weather-App"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            GitHub
+                                        </a>
+                                    </div>
+                                    <div className="pl-4">
+                                        <a className="
+                                            text-base md:text-xl font-normal
+                                            pl-3 pr-3 pt-1 pb-1
+                                            bg-red-300
+                                            hover:bg-red-400 
+                                            text-white
+                                            cursor-pointer"
+                                            href="https://weather-app-77.netlify.app/"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            Live Site
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <img src={project03} className="p-6" alt="" />
+                    </div>
+                    <div className="
+                    project-items
+                    overflow-hidden">
+                        <img src={project04}
+                            className="w-fit border-b-2 border-zinc-500"
+                            alt="Project 04" />
+
+                        <div className="project-details">
+                            <div className="project-title">
+                                <h1 className="
+                                text-xl md:text-2xl font-bold uppercase
+                                pt-4 pl-4 pr-4">
+                                    Simple Calculator
+                                </h1>
+                            </div>
+
+                            <div className="project-description">
+                                <p className="
+                                text-base md:text-xl font-medium uppercase
+                                pt-6 pl-4 pr-4 pb-4">
+                                    A simple calculator built using HTML5, CSS3 and JavaScript
+                                </p>
+                            </div>
+
+                            <div className="project Link pb-1">
+                                <div className="flex p-4">
+                                    <div className="">
+                                        <a className="
+                                            text-base md:text-xl font-normal
+                                            pl-3 pr-3 pt-1 pb-1
+                                            bg-red-300
+                                            hover:bg-red-400 
+                                            text-white
+                                            cursor-pointer"
+                                            href="https://github.com/MahirAshhab/Simple-Calculator-JS"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            GitHub
+                                        </a>
+                                    </div>
+                                    <div className="pl-4">
+                                        <a className="
+                                            text-base md:text-xl font-normal
+                                            pl-3 pr-3 pt-1 pb-1
+                                            bg-red-300
+                                            hover:bg-red-400 
+                                            text-white
+                                            cursor-pointer"
+                                            href="https://simple-calculator-77.netlify.app/"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            Live Site
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div >

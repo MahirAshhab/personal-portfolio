@@ -10,7 +10,7 @@ const Framework = () => {
         pb-16
         text-left">
             <h1 className="
-            xl:text-6xl text-5xl font-bold
+            xl:text-6xl md:text-5xl text-4xl font-bold uppercase
             mb-16
             text-right">
                 Frameworks
