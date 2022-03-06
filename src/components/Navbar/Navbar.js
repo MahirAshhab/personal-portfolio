@@ -58,7 +58,7 @@ const Navbar = () => {
                 bg-orange-100 
                 w-full h-12 
                 uppercase">
-                    <input type="checkbox" id="check" className="
+                    {/* <input type="checkbox" id="check" className="
                     hidden"/>
                     <label for="check" className="
                     text-black
@@ -72,7 +72,7 @@ const Navbar = () => {
                     pr-8
                     lg:pr-28">
                         <FaBars />
-                    </label>
+                    </label> */}
                     <label className="logo 
                     text-white 
                     text-3xl
@@ -80,14 +80,13 @@ const Navbar = () => {
                     float-left
                     pl-8
                     pr-8
-                    cursor-pointer
                     lg:pl-28
                     tracking-normal
                     bg-red-300
                     hover:bg-red-400">
                         MA
                     </label>
-                    <ul className="
+                    {/* <ul className="
                     text-black 
                     float-right
                     text-sm font-bold
@@ -208,7 +207,7 @@ const Navbar = () => {
                                 </a>
                             </div>
                         </div>
-                    </ul>
+                    </ul> */}
                 </nav>
                 <Hero></Hero>
             </div>

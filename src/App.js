@@ -1,5 +1,6 @@
 import './App.css';
 import Education from './components/Education/Education';
+import Footer from './components/Footer/Footer';
 import Languages from './components/Languages/Languages';
 import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
@@ -11,6 +12,7 @@ function App() {
       <Education />
       <Languages />
       <Projects />
+      <Footer />
     </div>
   );
 }

@@ -80,7 +80,9 @@ const Hero = () => {
                             className="
                             w-16
                             pt-1 pb-1
-                            border-2 border-zinc-400">
+                            border-2 border-zinc-400
+                            hover:bg-red-400
+                            hover:text-white">
                             fb.
                         </a>
                     </div>
@@ -90,13 +92,15 @@ const Hero = () => {
                     flex
                     justify-center">
                         <a
-                            href="https://www.linkedin.com/in/mahir-ashhab77/"
+                            href="https://github.com/MahirAshhab/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="
                             w-16
                             pt-1 pb-1
-                            border-2 border-zinc-400">
+                            border-2 border-zinc-400
+                            hover:bg-red-400
+                            hover:text-white">
                             gh.
                         </a>
                     </div>
@@ -112,7 +116,9 @@ const Hero = () => {
                             className="
                             w-16
                             pt-1 pb-1
-                            border-2 border-zinc-400">
+                            border-2 border-zinc-400
+                            hover:bg-red-400
+                            hover:text-white">
                             li.
                         </a>
                     </div>

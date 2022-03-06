@@ -4,14 +4,15 @@ import project01 from '../../images/project01.png';
 import project02 from '../../images/project02.png';
 import project03 from '../../images/project03.png';
 import project04 from '../../images/project04.png';
+import project05 from '../../images/project05.jpg';
 
 const Projects = () => {
     const StyledDiv = styled.div`
         .project-items{
             box-shadow: 5px 5px 15px 5px rgb(158, 158, 158, 0.6);
         }
-        
-        .icon{
+
+        .project-link a{
             transition: 0.5s;
         }
     `;
@@ -33,11 +34,13 @@ const Projects = () => {
                 grid grid-cols-1 
                 lg:grid-cols-2 
                 gap-x-10 gap-y-16">
+
+                    {/* Project 01 */}
                     <div className="
                     project-items
                     overflow-hidden">
                         <img src={project01}
-                            className="w-fit border-b-2 border-zinc-500"
+                            className="w-fit"
                             alt="Project 01" />
 
                         <div className="project-details">
@@ -57,7 +60,7 @@ const Projects = () => {
                                 </p>
                             </div>
 
-                            <div className="project Link pb-1">
+                            <div className="project-link pb-1">
                                 <div className="flex p-4">
                                     <div className="">
                                         <a className="
@@ -91,11 +94,13 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Project 02 */}
                     <div className="
                     project-items
                     overflow-hidden">
                         <img src={project02}
-                            className="w-fit border-b-2 border-zinc-500"
+                            className="w-fit"
                             alt="Project 02" />
 
                         <div className="project-details">
@@ -115,7 +120,7 @@ const Projects = () => {
                                 </p>
                             </div>
 
-                            <div className="project Link pb-1">
+                            <div className="project-link pb-1">
                                 <div className="flex p-4">
                                     <div className="">
                                         <a className="
@@ -149,11 +154,13 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Project 03 */}
                     <div className="
                     project-items
                     overflow-hidden">
                         <img src={project03}
-                            className="w-fit border-b-2 border-zinc-500"
+                            className="w-fit"
                             alt="Project 03" />
 
                         <div className="project-details">
@@ -173,7 +180,7 @@ const Projects = () => {
                                 </p>
                             </div>
 
-                            <div className="project Link pb-1">
+                            <div className="project-link pb-1">
                                 <div className="flex p-4">
                                     <div className="">
                                         <a className="
@@ -207,11 +214,13 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Project 04 */}
                     <div className="
                     project-items
                     overflow-hidden">
                         <img src={project04}
-                            className="w-fit border-b-2 border-zinc-500"
+                            className="w-fit"
                             alt="Project 04" />
 
                         <div className="project-details">
@@ -231,7 +240,7 @@ const Projects = () => {
                                 </p>
                             </div>
 
-                            <div className="project Link pb-1">
+                            <div className="project-link pb-1">
                                 <div className="flex p-4">
                                     <div className="">
                                         <a className="
@@ -259,6 +268,52 @@ const Projects = () => {
                                             target="_blank"
                                             rel="noopener noreferrer">
                                             Live Site
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Project 05 */}
+                    <div className="
+                    project-items
+                    overflow-hidden">
+                        <img src={project05}
+                            className="w-fit"
+                            alt="Project 04" />
+
+                        <div className="project-details">
+                            <div className="project-title">
+                                <h1 className="
+                                text-xl md:text-2xl font-bold uppercase
+                                pt-4 pl-4 pr-4">
+                                    Advanced LF RC Car
+                                </h1>
+                            </div>
+
+                            <div className="project-description">
+                                <p className="
+                                text-base md:text-xl font-medium uppercase
+                                pt-6 pl-4 pr-4 pb-4">
+                                    A Line Following (LF) Remote Controlled (RC) Car that can find the shortest possible path to the destination.
+                                </p>
+                            </div>
+
+                            <div className="project-link pb-1">
+                                <div className="flex p-4">
+                                    <div className="">
+                                        <a className="
+                                            text-base md:text-xl font-normal
+                                            pl-3 pr-3 pt-1 pb-1
+                                            bg-red-300
+                                            hover:bg-red-400 
+                                            text-white
+                                            cursor-pointer"
+                                            href="https://github.com/MahirAshhab/Simple-Calculator-JS"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            GitHub
                                         </a>
                                     </div>
                                 </div>
