@@ -1,19 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Education = () => {
-    const StyledDiv = styled.div`
-        .education-container{
-            grid-template-columns: auto;
-        }
+const StyledDiv = styled.div`
+    .education-container{
+        grid-template-columns: auto;
+    }
         
-        @media (min-width: 1024px) {
-            .education-container{
-                grid-template-columns: 35% auto;
-            }
+    @media (min-width: 1024px) {
+        .education-container{
+            grid-template-columns: 35% auto;
         }
-    `;
+    }
+`;
 
+const Education = () => {
     return (
         <StyledDiv>
             <div className="

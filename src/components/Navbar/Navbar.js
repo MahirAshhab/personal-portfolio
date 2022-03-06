@@ -1,56 +1,56 @@
 import React from 'react';
 import Hero from '../Hero/Hero';
-import { FaBars } from 'react-icons/fa';
+// import { FaBars } from 'react-icons/fa';
 import styled from 'styled-components';
 
+const StyleDiv = styled.div`
+    *{
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    nav{
+        position: fixed;
+        top: 0;
+        z-index: 5;
+    }
+
+    .logo{
+        line-height: 3rem;
+        transition: 0.5s;
+    }
+
+    nav ul li{
+        line-height: 3rem;
+    }
+
+    nav label{
+        transition: 0.5s;
+    }
+
+    nav ul li a:hover{
+        transition: 0.5s;
+        color: #f87171;
+    }
+
+    nav .icon-container a{
+        letter-spacing: 5px;
+        transition: 0.5s;
+    }
+
+    @media (max-width: 1024px) {
+        ul{
+            transition: all 0.5s;
+        }
+
+        #check:checked ~ ul{
+            left: 0;
+        }
+    }
+`;
+
 const Navbar = () => {
-    const StyleDiv = styled.div`
-        *{
-            text-decoration: none;
-            list-style: none;
-            box-sizing: border-box;
-        }
-
-        nav{
-            position: fixed;
-            top: 0;
-            z-index: 5;
-        }
-        
-        .logo{
-            line-height: 3rem;
-            transition: 0.5s;
-        }
-        
-        nav ul li{
-            line-height: 3rem;
-        }
-        
-        nav label{
-            transition: 0.5s;
-        }
-        
-        nav ul li a:hover{
-            transition: 0.5s;
-            color: #f87171;
-        }
-        
-        nav .icon-container a{
-            letter-spacing: 5px;
-            transition: 0.5s;
-        }
-        
-        @media (max-width: 1024px) {
-            ul{
-                transition: all 0.5s;
-            }
-        
-            #check:checked ~ ul{
-                left: 0;
-            }
-        }
-    `;
-
     return (
         <StyleDiv>
             <div>

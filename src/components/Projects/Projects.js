@@ -6,17 +6,17 @@ import project03 from '../../images/project03.png';
 import project04 from '../../images/project04.png';
 import project05 from '../../images/project05.jpg';
 
+const StyledDiv = styled.div`
+    .project-items{
+        box-shadow: 5px 5px 15px 5px rgb(158, 158, 158, 0.6);
+    }
+
+    .project-link a{
+        transition: 0.5s;
+    }        
+`;
+
 const Projects = () => {
-    const StyledDiv = styled.div`
-        .project-items{
-            box-shadow: 5px 5px 15px 5px rgb(158, 158, 158, 0.6);
-        }
-
-        .project-link a{
-            transition: 0.5s;
-        }
-    `;
-
     return (
         <StyledDiv>
             <div className="

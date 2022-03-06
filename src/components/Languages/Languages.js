@@ -3,13 +3,13 @@ import Programming from '../Programming/Programming';
 import Framework from '../Framework/Framework';
 import styled from 'styled-components';
 
-const Languages = () => {
-    const StyledDiv = styled.div`
-    .language-container{
-        background-color: rgb(255 247 237);
-    }
-    `
+const StyledDiv = styled.div`
+.language-container{
+    background-color: rgb(255 247 237);
+}
+`;
 
+const Languages = () => {
     return (
         <StyledDiv>
             <div className="language-container">

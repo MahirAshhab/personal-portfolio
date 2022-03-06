@@ -2,20 +2,20 @@ import React from 'react';
 import cv from '../../cv/Mahir_Ashhab_CV.pdf'
 import styled from 'styled-components';
 
-const Hero = () => {
-    const StyleDiv = styled.div`
-        .hero-container{
-            background-color: rgb(255 247 237);
-        }
-        .cv{
-            transition: .5s;
-        }
-        .icon-container a{
-            letter-spacing: 5px;
-            transition: 0.5s;
-        }
-    `;
+const StyleDiv = styled.div`
+    .hero-container{
+        background-color: rgb(255 247 237);
+    }
+    .cv{
+        transition: .5s;
+    }
+    .icon-container a{
+        letter-spacing: 5px;
+        transition: 0.5s;
+    }
+`;
 
+const Hero = () => {
     return (
         <StyleDiv>
             <div className="
